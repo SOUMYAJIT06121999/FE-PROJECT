@@ -1,0 +1,407 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-container {
+    background: linear-gradient(311.45deg, #0C2949 -3.08%, #1C6BA4 41.28%, #2BADFF 85.64%);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: linear-gradient(311.45deg, #0C2949 -3.08%, #1C6BA4 41.28%, #2BADFF 85.64%);
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .btn.Dark {
+    background-color: rgba(12, 41, 73, 1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.hero-image {
+    position: relative;
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.hero-text .subtitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.73);
+}
+.clogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .clogo img {
+    width: 50px; 
+    height: 50px; 
+    margin: 40px;
+    border-radius: 5px; 
+  }
+  .main2-container h6 {
+    text-align: center;
+    color:rgba(43, 173, 255, 1);
+
+  }
+  .main2-container h1 {
+    text-align: center;
+  }
+  .Demo {
+    background-color: rgba(12, 41, 73, 1);
+    color: #fff;
+    padding: 8px 41px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px auto; 
+    display: block; 
+  }
+  .main3-container {
+    
+    padding: 40px;
+    
+    
+    background: linear-gradient(223.86deg, #2BADFF -27.36%, #0C2949 61.07%);
+    
+   
+    text-align: center;
+  }
+  
+  .main3-container h1 {
+    
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .combox {
+    /* Style the comparing box container */
+    width: 80%;
+    margin: 40px auto;
+    background-color: linear-gradient(223.86deg, #2BADFF -27.36%, #0C2949 61.07%);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .combox img {
+    /* Style the comparing box image */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .main4-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    flex-basis: 60%; /* adjust the width as needed */
+}
+
+.right-side {
+    flex-basis: 40%; /* adjust the width as needed */
+}
+
+.ebox {
+    width: 50%; /* make the image take full width of the right side */
+    height: auto;
+}
+
+.main5-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    flex-basis: 60%; 
+}
+
+.right-side {
+    flex-basis: 40%; 
+}
+
+.main5-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(210.83deg, #2BADFF -1.93%, #0C2949 61.13%);
+}
+
+.carpic {
+    width: 80%; 
+    height: auto;
+    margin: 0 auto; 
+}
+.main5-container h1 {
+   
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .main5-container p {
+    color: rgba(255, 255, 255, 0.73);
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #f7f7f7; 
+    padding : 20px;
+    margin: 20px;
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card3 {
+    background:linear-gradient(180deg, #1D62AF 0%, #0C2949 100%);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .card3 h3, .card3 p {
+    color: #fff;
+  }
+  .main7-container {
+    background: rgba(247, 250, 254, 1);
+    text-align: center;
+  }
+  
+  .tree {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px; 
+  }
+  .main8-container {
+    background: linear-gradient(159.76deg, #2BADFF -20.88%, #0C2949 52.26%);
+    
+    text-align: center;
+  }
+  .main8-container h1, h5, h6 {
+    color: #fff;
+  }
+  /* Add mobile responsiveness to all containers */
+
+/* For screens smaller than 768px (tablet) */
+@media only screen and (max-width: 768px) {
+    /* Make all containers full-width */
+    .main-container, .main2-container, .main3-container, .main4-container, .main5-container, .main6-container, .main7-container, .main8-container {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Adjust font sizes and margins */
+    h1, h5, h6 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    /* Make images responsive */
+    img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Adjust layout for smaller screens */
+    .hero-container {
+      flex-direction: column;
+    }
+    
+    .hero-text {
+      text-align: center;
+    }
+    
+    .clogo {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .clogo img {
+      margin: 10px;
+    }
+    
+    .combox {
+      margin: 20px auto;
+    }
+    
+    .left-side, .right-side {
+      width: 100%;
+    }
+    
+    .card, .card3 {
+      margin: 20px;
+    }
+    
+    .container {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* For screens smaller than 480px (mobile) */
+  @media only screen and (max-width: 480px) {
+    /* Make all containers even smaller */
+    .main-container, .main2-container, .main3-container, .main4-container, .main5-container, .main6-container, .main7-container, .main8-container {
+      padding: 10px;
+    }
+    
+    /* Adjust font sizes and margins */
+    h1, h5, h6 {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    /* Make images even smaller */
+    img {
+      width: 80%;
+      height: auto;
+    }
+    
+    /* Adjust layout for even smaller screens */
+    .hero-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .hero-text {
+      text-align: center;
+      font-size: 16px;
+    }
+    
+    .clogo {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .clogo img {
+      margin: 5px;
+    }
+    
+    .combox {
+      margin: 10px auto;
+    }
+    
+    .left-side, .right-side {
+      width: 100%;
+    }
+    
+    .card, .card3 {
+      margin: 10px;
+    }
+    
+    .container {
+      flex-wrap: wrap;
+    }
+  }
+  /* Add styles for the hamburger menu */
+.hamburger {
+    display: none;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger span {
+        background-color: #333;
+        height: 2px;
+        width: 20px;
+        margin: 4px;
+        display: block;
+    }
+    .contact-us {
+        display: block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .contact-us a {
+        color: #fff;
+    }
+}
+
+/* Add styles for the active hamburger menu */
+.hamburger.active span {
+    background-color: #fff;
+}
+
+.hamburger.active + .contact-us {
+    display: block;
+}
